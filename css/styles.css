@@ -1,6 +1,8 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/fruit-punch-2');
+                
 
 /* Changing the main font and background colour */
 
@@ -14,19 +16,47 @@ body {
 header {
 	background-color: #000060;
 }
-
+.fontchange {font-family: 'FRUIT-PUNCH', sans-serif;
+	font-size: 50px;
+	color: #FE953A;
+	
+}
 /* Changing the background color for the navigation bar */
 
 .navbar {
 	background-color: #FFFFFF;
 }
-
 /* Effect on social media buttons */
-
 footer a:hover {
 	opacity: .5;
 }
 
+/* De grid-container zorgt ervoor dat we een grid hebben */
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%; /* Twee gelijke kolommen */
+  gap: 20px; /* Ruimte tussen de kolommen */
+  justify-items: center; /* Centreert de inhoud horizontaal binnen de kolommen */
+  align-items: center; /* Centreert de inhoud verticaal binnen de kolommen */
+  padding: 20px;
+}
+
+/* Stijl voor de items in de grid */
+.item {
+  background-color: #f0f0f0; /* Lichte achtergrondkleur voor de items */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Zachte schaduw voor visuele diepte */
+}
+
+/* Specifieke stijlen voor kolom 1 en kolom 2 */
+.item1 {
+  background-color: #e6f7ff; /* Lichte blauwe achtergrond voor kolom 1 */
+}
+
+.item2 {
+  background-color: #fff3e6; /* Lichte oranje achtergrond voor kolom 2 */
+}
 /* Corporate navbar */
 
 #navbar-corporate a.active {
