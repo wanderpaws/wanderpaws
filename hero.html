@@ -63,55 +63,49 @@
     <!-- End of navigation bar -->
 
   <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-  <style>
-  .custom-container {
-    background-color: #fe953a;
-    padding: 0;
-  }
-
-  .image-wrapper {
-    position: relative;
-    width: 100%;
-	  length: 50%;
-	 
-  }
-
-  .image-wrapper img {
-    width: 100%;
-	  length: 50%;
-    height: auto;
-    display: block;
-  }
-
-  .overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.4); /* Optional: improve contrast */
-    border-radius: 1rem;
-    width: 90%;
-    max-width: 700px;
-  }
-</style>
-
-<header class="text-center container-fluid custom-container text-light">
-  <!-- Image with overlaid text -->
-  <div class="image-wrapper">
-    <img src="images/pexels-helenalopesph-27176279.jpg" alt="Car Travel" class="img-fluid">
-    <div class="overlay-text">
-      <h1 class="display-2">Travel by Car</h1>
-      <p class="lead">Thinking about traveling by car? This page is for you!</p>
-      <p class="mt-4">
-        <a href="#" class="btn btn-lg btn-warning m-1">Tips &amp; Advice&nbsp;</a>
-        <a href="#" class="btn btn-lg btn-danger m-1">See what others have experienced&nbsp;</a>
-      </p>
-    </div>
-  </div>
-</header>
+     <section class="container-fluid p-0">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/pexels-helenalopesph-27176279.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h3 class="d-none d-md-block fontchange fontsizecarousel ">Traveling Together by Car</h3>
+              <p>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/ignacio-amenabar-2dkgXTfPfTg-unsplash.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h3 class="d-none d-md-block fontchange">Traveling Together by Car</h3>
+              <p>
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/andrew-pons-QsmGE0P2-B8-unsplash.jpg" class="d-block mx-auto w-100" alt="...">
+            <div class="carousel-caption">
+              <h3 class="d-none d-md-block fontchange">Traveling Together by Car</h3>
+              <p>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
     <!-- End of photo section -->
 	  
 	  <!-- Section for additional content -->
@@ -135,7 +129,6 @@
 </style>
 
 <section class="content-section"> 
-  <h2>Welcome to Our Travel Blog</h2>
   <p>Thinking about travelling by car? Here, you'll find expert tips and advice on keeping your dog safe, comfortable, and happy on the road, ensuring a smooth and stress-free journey for both of you!</p>
 
   <h2>Traveling Safely with Your Dog in a Car</h2>
