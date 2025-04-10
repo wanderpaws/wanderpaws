@@ -4,6 +4,7 @@
 
 @import url('https://fonts.cdnfonts.com/css/fruit-punch-2');
                 
+                
 body {
   margin: 0;
   padding: 0;
@@ -21,7 +22,9 @@ body {
   font-family: 'Fruit Punch', cursive;
 }
 .fruit-font {
-	font-family: 'Fruit Punch'
+ font-family: 'FRUIT-PUNCH', sans-serif;
+	color: white
+                                                
 }
 
 
@@ -33,6 +36,7 @@ body {
 	font-family: Raleway, sans-serif;
 	background-color: #fffcf8;
 }
+.customblock {color: #21EF8C}
 
 .custom-container {
   background-color: #fe953a;
@@ -93,7 +97,6 @@ footer a:hover {
 }
 
 /* Hero Section shadow */
-
 .white-shadow {
 	text-shadow: -.01em -.01em .01em white,
 		.02em .02em .02em white,
