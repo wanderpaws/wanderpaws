@@ -14,8 +14,18 @@ body {
   font-family: sans-serif;
 }
 .overlay-text h1 {
-  font-family: 'Fruit Punch', cursive; /* or whatever fallback you want */
+  font-family: 'Fruit Punch', cursive; 
 }
+
+.white-shadow {
+  font-family: 'Fruit Punch', cursive;
+}
+.fruit-font {
+	font-family: 'Fruit Punch'
+}
+
+
+
 
 /* Changing the main font and background colour */
 
@@ -32,7 +42,7 @@ body {
 /* Changing the background colour for the header */
 
 header {
-	background-color: #000060;
+	background-color: #FE953A;
 }
 .fontchange {font-family: 'FRUIT-PUNCH', sans-serif;
 	font-size: 50px;
@@ -69,7 +79,7 @@ footer a:hover {
 
 /* Specifieke stijlen voor kolom 1 en kolom 2 */
 .item1 {
-  background-color: #e6f7ff; /* Lichte blauwe achtergrond voor kolom 1 */
+  background-color: #FFFFFF; /* Lichte blauwe achtergrond voor kolom 1 */
 }
 
 .item2 {
