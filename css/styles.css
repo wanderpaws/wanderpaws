@@ -4,7 +4,15 @@
 
 @import url('https://fonts.cdnfonts.com/css/fruit-punch-2');
                 
-
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("dogsplanebackground 2.png"); /* of bijvoorbeeld: url("images/dogsplanebackground 2.png"); */
+  background-size: cover;      /* Zorgt dat de afbeelding de hele pagina bedekt */
+  background-repeat: no-repeat; 
+  background-position: center;
+  font-family: sans-serif;
+}
 .overlay-text h1 {
   font-family: 'Fruit Punch', cursive; 
 }
