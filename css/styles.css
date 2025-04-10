@@ -6,8 +6,18 @@
                 
 
 .overlay-text h1 {
-  font-family: 'Fruit Punch', cursive; /* or whatever fallback you want */
+  font-family: 'Fruit Punch', cursive; 
 }
+
+.white-shadow {
+  font-family: 'Fruit Punch', cursive;
+}
+.fruit-font {
+	font-family: 'Fruit Punch'
+}
+
+
+
 
 /* Changing the main font and background colour */
 
