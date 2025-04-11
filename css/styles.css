@@ -76,6 +76,7 @@ body {
 /* end of plane css
 
 
+
 /* Changing the main font and background colour */
 
 body {
@@ -88,6 +89,22 @@ body {
   background-color: #fe953a;
 }
 
+
+  .content-section {
+    background-color: #fe953a;
+    color: white;
+    padding: 60px 20px;
+    text-align: left;
+  }
+
+  .content-section h2 {
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+
+  .content-section p {
+    margin-bottom: 1.5rem;
+  }
 
 /* Changing the background colour for the header */
 
