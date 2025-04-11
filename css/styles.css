@@ -8,11 +8,14 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url("dogsplanebackground 2.png"); /* of bijvoorbeeld: url("images/dogsplanebackground 2.png"); */
+  background-image: url("/..images/dogsplanebackground.png"); /* of bijvoorbeeld: url("images/dogsplanebackground 2.png"); */
   background-size: cover;      /* Zorgt dat de afbeelding de hele pagina bedekt */
   background-repeat: no-repeat; 
   background-position: center;
   font-family: sans-serif;
+}
+.my-background {
+	background-image: url("../images/123.jpg"); /* of bijvoorbeeld: url("images/dogsplanebackground 2.png"); */
 }
 .overlay-text h1 {
   font-family: 'Fruit Punch', cursive; 
@@ -23,7 +26,7 @@ body {
 }
 .fruit-font {
  font-family: 'FRUIT-PUNCH', sans-serif;
-	color: white
+	color: red;
                                                 
 }
 
