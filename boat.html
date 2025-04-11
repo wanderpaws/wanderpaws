@@ -23,35 +23,32 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">   <img src="images/logos/wanderpaws_groen2.png" width="90" alt="Breda University of Applied Sciences">
+        <a class="navbar-brand" href="index.html">
+        <img src="images/logos/wanderpaws_groen2.png" width="90" alt="wanderpaws logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+		  
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">example</a>
-            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Traveling Together
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Travel by
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item active" aria-current="page" href="hero.html">Car</a></li>
+                <li><a class="dropdown-item" href="hero.html">Car</a></li>
+				  <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="plane.html">Plane</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
+				  <li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="boat.html">Boat</a></li> 
+				  <li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="boat.html">Train</a></li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link" href="community.html" target="_blank">Community</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="corporate.html">Corporate</a>
@@ -110,23 +107,7 @@
 	  
 	  <!-- Section for additional content -->
 
-<style>
-  .content-section {
-    background-color: #fe953a;
-    color: white;
-    padding: 60px 20px;
-    text-align: left;
-  }
 
-  .content-section h2 {
-    margin-top: 2rem;
-    font-weight: bold;
-  }
-
-  .content-section p {
-    margin-bottom: 1.5rem;
-  }
-</style>
 
 <section class="content-section"> 
   <p>Air travel with dogs can be confusing, but we've got you covered! Here, you'll find a list of dog-friendly airlines. Click on each airline to instantly view their specific pet travel policies and requirements. </p>
@@ -242,13 +223,26 @@ Food and water bowls that can be refilled without opening the crate.</li>
 	<h2>Still Unsure? Consider Alternatives </h2>
 	<p>Flying isn’t the best option for every dog. If you’re unsure about your dog’s ability to handle air travel, you might want to leave them at home. </p>
 	<li>Consider a trusted pet sitter or dog boarding service. </li>
-	<li>If possible, opt for a road trip instead—it’s often a less stressful alternative! </li>
-	
-	<h2>Links to websites airlines</h2>
-	
+  <ul>
+	  <li>If possible, opt for a road trip instead—it’s often a less stressful alternative! </li>
+	  <p>&nbsp;</p>
+  </ul>
+<div class="blue-block">
+    <h2>In a need for more information? See the website of your Boat company!</h2>
+    <div class="button-container">
+      <a href="https://www.royalcaribbean.com/experience/accessible-cruising/service-animals " class="link-button" target="_blank">Royal Caribbean</a>
+      <a href="https://help.carnival.com/app/answers/detail/a_id/3444/~/bringing-pets-onboard#:~:text=We%20are%20sorry%20but%20pets,needs%20by%20performing%20special%20tasks" class="link-button" target="_blank">Carnival</a>
+      <a href="https://www.klm.nl/en/information/pets" class="link-button" target="_blank">KLM</a>
+      <a href="https://www.msccruises.com/int/faq/on-board-information#:~:text=No%20animals%20are%20allowed%20on%20board%2C%20apart%20from%20recognised%20assistance%20dogs. " class="link-button" target="_blank">MSCCruises</a>
+      <a href="https://www.amatravel.ca/articles/dog-friendly-cruise-ships#:~:text=norwegian-,only%20service%20animals%20are%20allowed%20onboard%20norwegian%20cruise%20ships.,sand%20box%20will%20be%20provided" class="link-button" target="_blank">Amatravel</a>
+      <a href="https://www.princesscruises.de/en/accessibility-on-board#:~:text=Princess%20welcomes%20service%20animals%20trained,not%20allowed%20on%20Princess%20ships" class="link-button" target="_blank">Princes Cruises</a>
+      <a href="https://www.celebritycruises.com/special-needs/service-animals " class="link-button" target="_blank">Celebrity Cruises</a>
+      <a href="https://www.costacruises.nl/faqs.html " class="link-button" target="_blank">Costa Cruises</a>
+		<a href="https://www.hollandamerica.com/en/faq/cruise-planning/general-information/pets#:~:text=Answer%3A%20With%20the%20exception%20of,call%20our%20Guest%20Accessibility%20Department.  " class="link-button" target="_blank">Holland America</a>
+    </div>
+  </div>
 	
 
- 
 </section>
 
     <!-- A footer with socials -->
@@ -265,13 +259,13 @@ Food and water bowls that can be refilled without opening the crate.</li>
           </li>
           <li>
             <a href="https://www.instagram.com/wanderpawsofficial/" target="_blank">
-              <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
+            <img class="m-2" src="images/instagram.svg" alt="Follow us on Instagram" width="26">
             </a>
           </li>
         </ul>
       </div>
-    </footer>
+  </footer>
     <!-- End of the footer -->
 
-  </body>
+</body>
 </html>
