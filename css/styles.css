@@ -31,6 +31,52 @@ body {
 }
 
 
+/* css of box of plane */
+
+
+
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .blue-block {
+      background-color: #0BC0FD;
+      padding: 30px;
+      margin: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .blue-block h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .link-button {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #21ef8c;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+      text-align: center;
+      transition: background-color 0.3s ease;
+    }
+
+    .link-button:hover {
+      background-color: #45a049;
+    }
+/* end of plane css
 
 
 /* Changing the main font and background colour */
