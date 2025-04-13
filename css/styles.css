@@ -42,7 +42,7 @@ body {
     }
 
     .blue-block {
-      background-color: #0BC0FD;
+      background-color: #00FF8C;
       padding: 30px;
       margin: 20px;
       border-radius: 12px;
@@ -176,4 +176,8 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+.gewoonfruit{
+	font-display:'Fruit Punch', cursive; 
 }
