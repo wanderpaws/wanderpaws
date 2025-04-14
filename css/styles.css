@@ -96,9 +96,8 @@ body {
 }
 
   .content-section {
-	background-image: url("../images/plane/planeback2.jpg");
-    background-color: #fe953a;
-    color: white;
+	background-image: url("../images/plane/planeback-white.jpg");
+    color: black;
     padding: 60px 20px;
     text-align: left;
   }
