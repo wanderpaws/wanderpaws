@@ -180,3 +180,34 @@ footer a:hover {
 .gewoonfruit{
 	font-display:'Fruit Punch', cursive; 
 }
+
+.image-container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.media-item {
+    flex: 1 1 21%; /* Allow items to grow and shrink, with a base width of 21% */
+    margin: 10px; /* Space between media items */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.img-thumbnail {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves like a block element */
+}
+
+.media-video {
+    width: 100%; /* Make videos responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content-calendar {
+    width: 100%; /* Set the width to 80% of the parent container */
+    max-width: 900px; /* Set a maximum width to prevent it from getting too large */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure it behaves like a block element */
+    margin: 20px auto; /* Center the image and add vertical spacing */
+}
