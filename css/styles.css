@@ -29,7 +29,11 @@ body {
 	background-color: #FE953A;
 	border-color: #FE953A
 }
-
+.fruit-font-groen{
+ font-family: 'FRUIT-PUNCH', sans-serif;
+	color: #3BFF88;
+                         
+}
 
 /* css of box of plane */
 
