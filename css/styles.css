@@ -26,6 +26,19 @@ body {
 .overlay-text h1 {
   font-family: 'Fruit Punch', cursive; 
 }
+ .btn-community {
+    background-color: #3BFF88;
+    color: white;
+    padding: 12px 28px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+  }
 
 .white-shadow {
   font-family: 'Fruit Punch', cursive;
