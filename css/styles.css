@@ -39,7 +39,11 @@ body {
 	background-color: #FE953A;
 	border-color: #FE953A
 }
-
+.fruit-font-groen{
+ font-family: 'FRUIT-PUNCH', sans-serif;
+	color: #3BFF88;
+                         
+}
 
 /* css of box of plane */
 
@@ -91,7 +95,11 @@ body {
 
 
 /* Changing the main font and background colour */
-
+.fruit-font2 {
+ font-family: 'FRUIT-PUNCH', sans-serif;
+	color: #FFFFFF;
+                                                
+}
 body {
 	font-family: 'inter', sans-serif;
 	background-color: #fffcf8;
@@ -106,7 +114,7 @@ body {
 }
 
   .content-section {
-	background-image: url("../images/plane/planeback-white.jpg");
+	background-image: url("../images/background/planeback-white.jpg");
     color: black;
     padding: 60px 20px;
     text-align: left;
