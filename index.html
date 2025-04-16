@@ -109,163 +109,126 @@
 	  
 	  
   <!-- Start of main placeholder in landing page -->
-    <div>
-	  <main class="h-100 d-flex flex-column justify-content-center align-items-center">
-		<br>
+   <div>
+  <main class="h-100 d-flex flex-column justify-content-center align-items-center text-center">
+    <br>
+    <h5 class="fruit-font-groen" style="font-size: 80px;">Welcome to WanderPaws!</h5>
+  </main>
+
+  <div class="container my-5">
+    <div class="row align-items-center">
 		
-   <h5 class="fruit-font-groen" style="font-size: 80px;">Welcome to WanderPaws!</h5>
-      <div>
+      <!-- Carousel Text Section -->
+      <div class="col-md-6">
+        <div id="introCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner p-4">
+            <div class="carousel-item active">
+              <p class="fs-4">Your ultimate guide to traveling the world with your furry best friend.</p>
+            </div>
+            <div class="carousel-item">
+              <p class="fs-4">We believe that the best adventures are the ones shared with your loyal companion. That’s why we always encourage you to bring your dog along!</p>
+            </div>
+            <div class="carousel-item">
+              <p class="fs-4">That’s where WanderPaws comes in. We make traveling with your pup easy, stress-free, and fun!</p>
+            </div>
+            <div class="carousel-item">
+              <p class="fs-4">Select your preferred mode of transportation and discover all the essential rules, tips, and advice.</p>
+            </div>
+          </div>
 
-<div class="container my-5">
-  <div class="row align-items-center">
-    
-    <!-- Carousel Text Section -->
-    <div class="col-md-6">
-      <div id="introCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner p-4">
-          <div class="carousel-item active">
-            <p class="fs-4">Your ultimate guide to traveling the world with your furry best friend.</p>
-          </div>
-          <div class="carousel-item">
-            <p class="fs-4">We believe that the best adventures are the ones shared with your loyal companion. That’s why we always encourage you to bring your dog along!</p>
-          </div>
-          <div class="carousel-item">
-            <p class="fs-4">That’s where WanderPaws comes in. We make traveling with your pup easy, stress-free, and fun!</p>
-          </div>
-          <div class="carousel-item">
-            <p class="fs-4">Select your preferred mode of transportation and discover all the essential rules, tips, and advice.</p>
-          </div>
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
+      </div>
 
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
+      <!-- Image Section -->
+      <div class="col-md-6 text-center">
+        <img src="images/homepage/artboard.png" alt="Dog traveling" style="max-height: 400px;" class="img-fluid">
       </div>
     </div>
+  </div>
 
-    <!-- Static Image Section -->
-    <div class="col-md-6 text-center">
-      <img src="images/car/carphoto2b.jpg" alt="Dog traveling"  style="max-height: 400px;">
+  <!-- Community Link Section -->
+  <h3 class="fruit-font text-center">See what others have experienced</h3>
+
+  <div class="text-center mb-4">
+    <a href="community.html" class="btn-link">GO TO COMMUNITY</a>
+  </div>
+
+  <!-- Travel Options Section -->
+  <div class="container my-4">
+    <div class="row justify-content-center text-center">
+
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <img src="images/cards/car.jpg" class="card-img-top" alt="Travel by car">
+          <div class="card-body">
+            <h5 class="card-title">Travel by Car</h5>
+            <p class="card-text">Some quick example text to build on the card title.</p>
+            <a href="car.html" class="btn btn-primary">Check out!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <img src="images/cards/boat.jpg" class="card-img-top" alt="Travel by boat">
+          <div class="card-body">
+            <h5 class="card-title">Travel by Boat</h5>
+            <p class="card-text">Paws on Deck!</p>
+            <a href="boat.html" class="btn btn-primary">Check out!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <img src="images/cards/plane.jpg" class="card-img-top" alt="Travel by plane">
+          <div class="card-body">
+            <h5 class="card-title">Travel by Plane</h5>
+            <p class="card-text">Flying Together, Made Simple</p>
+            <a href="plane.html" class="btn btn-primary">Check out!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <img src="images/cards/train.jpg" class="card-img-top" alt="Travel by train">
+          <div class="card-body">
+            <h5 class="card-title">Travel by Train</h5>
+            <p class="card-text">Explore New Destinations, One Track at a Time</p>
+            <a href="train.html" class="btn btn-primary">Check out!</a>
+          </div>
+        </div>
+      </div>
+
     </div>
-    
   </div>
 </div>
+<!-- Ceck out section -->
 
-  <!-- Controls (optional) -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>			
-
-
-
-<h3 class="fruit-font" style="text-align: center;">See what others have experienced </h3> 
-
-<div style="text-align: center;">
-  <a href="community.html" class="btn-link">
-    <p>GO TO COMMUNITY</p>
-  </a>
-</div>
-
-<style>
-  .btn-link p {
-    background-color: #3BFF88;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    margin: 0;
-    font-weight: bold;
-    cursor: pointer;
-  }
-
-  .btn-link:hover p {
-    background-color: #00A33F;
-  }
-</style>
-	<!-- Beginning of the collumns/travel by check out section -->  
-<div class="container my-4">
-  <div class="row justify-content-center text-center">
-
-    <div class="col-md-3 mb-4">
-      <div class="card" style="width: 100%;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Travel by Car</h5>
-          <p class="card-text">Some quick example text to build on the card title.</p>
-          <a href="car.html" class="btn btn-primary">Check out!</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card" style="width: 100%;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Travel by Boat</h5>
-          <p class="card-text">Paws on Deck!</p>
-          <a href="boat.html" class="btn btn-primary">Check out!</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card" style="width: 100%;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Travel by plane</h5>
-          <p class="card-text">Flying Together, Made Simple</p>
-          <a href="plane.html" class="btn btn-primary">Check out!</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-3 mb-4">
-      <div class="card" style="width: 100%;">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Travel by Train&nbsp;</h5>
-          <p class="card-text">Explore New Destinations, One Track at a Time</p>
-          <a href="train.html" class="btn btn-primary">Check out!</a>
-        </div>
-      </div>
-    </div>
-
+<!-- Footer with socials -->
+<footer class="shadow-lg mt-auto py-4 bg-body">
+  <div class="container d-flex justify-content-between align-items-center">
+    <p>© 2025 – WanderPaws Official</p>
+    <ul class="list-unstyled d-flex align-items-center opacity-75">
+      <li>
+        <a href="https://www.instagram.com/wanderpawsofficial/" target="_blank">
+          <img class="m-2" src="images/icons/instagram.svg" alt="Follow us on Instagram" width="26">
+        </a>
+      </li>
+    </ul>
   </div>
-</div>
-   <!-- End of check out --> 
-		  
-   <!-- Beginning of the collumns/travel by check out section -->  	  
-	  
-	  
-	   <!-- A footer with socials -->
-   <!-- A footer with socials -->
-	  
-    <footer class="shadow-lg mt-auto py-4 bg-body">
-      <div class="container d-flex justify-content-between align-items-center">
-        <p>
-          © 2025 &ndash; WanderPaws Official
-        </p>
-        <ul class="list-unstyled d-flex align-items-center opacity-75">
-         
-          <li>
-            <a href="https://www.instagram.com/wanderpawsofficial/" target="_blank">
-              <img class="m-2" src="images/icons/instagram.svg" alt="Follow us on Instagram" width="26">
-            </a>
-          </li>
-        </ul>
-      </div>
-    </footer>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+ </body>
 </html>
