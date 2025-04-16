@@ -20,6 +20,46 @@
   <body class="h-100 d-flex flex-column" style="background-color: #FFFFF;">
 	 <!-- achtergrondkleur -->
 	  
+<!-- Join Now Modal -->
+<div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+	
+      <div class="modal-header">
+        <h5 class="modal-title" id="joinModalLabel">Sign up for the Wanderpaws Community</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+	  
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="nameInput" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="nameInput" placeholder="Your name">
+          </div>
+		  
+          <div class="mb-3">
+            <label for="emailInput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+          </div>
+		  
+          <div class="mb-3">
+            <label for="passwordInput" class="form-label">Password</label>
+            <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+          </div>
+		  
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="termsCheck">
+            <label class="form-check-label" for="termsCheck">I agree to the terms conditions</label>
+          </div>
+			<p>See your e-mail to complete the payment!</p>
+		  
+          <button type="submit" class="btn btn-primary">Join Now</button>
+        </form>
+      </div>
+	  
+    </div>
+  </div>
+</div>
 
 
     <!-- Navigation -->
@@ -64,7 +104,9 @@
         <h2 class="fruit-font2" style="font-size: 50px">Join the Community!</h2>
         <h2 class="fruit-font2" style="font-size: 30px">An online platform for sharing experiences with other travelers!</h2>
 		   <h2 class="fruit-font2" style="font-size: 30px">For only 9.99 a year</h2>
-        <a href="#" class="btn btn-lg btn-primary mt-3">Join now!</a>
+        <button type="button" class="btn btn-lg btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#joinModal">
+  Join now!
+</button>
       </div>
     </header>
 
