@@ -35,11 +35,6 @@ body {
 	color: #FE953A;
                                                 
 }
-.fruit-font2 {
- font-family: 'FRUIT-PUNCH', sans-serif;
-	color: #FFFFFF;
-                                                
-}
 .btn-primary{
 	background-color: #FE953A;
 	border-color: #FE953A
@@ -96,7 +91,11 @@ body {
 
 
 /* Changing the main font and background colour */
-
+.fruit-font2 {
+ font-family: 'FRUIT-PUNCH', sans-serif;
+	color: #FFFFFF;
+                                                
+}
 body {
 	font-family: 'inter', sans-serif;
 	background-color: #fffcf8;
