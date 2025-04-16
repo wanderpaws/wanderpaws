@@ -47,7 +47,22 @@ body {
 
 /* css of box of plane */
 
+  .btn-link p {
+    background-color: #3BFF88;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
 
+  .btn-link:hover p {
+    background-color: #00A33F;
+  }
 
     body {
       font-family: 'inter' sans-serif;
