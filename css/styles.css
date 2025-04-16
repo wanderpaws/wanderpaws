@@ -3,15 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 
 @import url('https://fonts.cdnfonts.com/css/fruit-punch-2');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
                 
-                
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
   background-size: cover;      /* Zorgt dat de afbeelding de hele pagina bedekt */
   background-repeat: no-repeat; 
   background-position: center;
-  font-family: sans-serif;
+  font-family: 'Inter';
 }
 .overlay-text h1 {
   font-family: 'Fruit Punch', cursive; 
@@ -40,7 +50,7 @@ body {
 
 
     body {
-      font-family: sans-serif;
+      font-family: 'inter' sans-serif;
       margin: 0;
       padding: 0;
     }
@@ -85,9 +95,13 @@ body {
 
 
 /* Changing the main font and background colour */
-
+.fruit-font2 {
+ font-family: 'FRUIT-PUNCH', sans-serif;
+	color: #FFFFFF;
+                                                
+}
 body {
-	font-family: Raleway, sans-serif;
+	font-family: 'inter', sans-serif;
 	background-color: #fffcf8;
 }
 .customblock {color: #21EF8C}
@@ -100,7 +114,7 @@ body {
 }
 
   .content-section {
-	background-image: url("../images/plane/planeback-white.jpg");
+	background-image: url("../images/background/planeback-white.jpg");
     color: black;
     padding: 60px 20px;
     text-align: left;
