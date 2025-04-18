@@ -27,7 +27,7 @@ body {
   font-family: 'Fruit Punch', cursive; 
 }
  .btn-community {
-    background-color: #3BFF88;
+    background-color: #3FFFFF;
     color: white;
     padding: 12px 28px;
     border: none;
@@ -211,7 +211,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #FE953A;
 	font-weight: bold;
 }
 
